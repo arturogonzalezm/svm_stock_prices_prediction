@@ -73,5 +73,5 @@ def predict_price(date, price, x):
 
 
 if __name__ == '__main__':
-    dates, prices = get_data('/Users/arturogonzalez/python_projects/svm_stock_prices_prediction/tests/data/AAPL.csv')
+    dates, prices = get_data('~/svm_stock_prices_prediction/tests/data/AAPL.csv')
     predict_price(dates, prices, 29)
